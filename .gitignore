@@ -1,0 +1,22 @@
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Package build artifacts
+*.tar.gz
+*.zip
+/doc/
+/Meta/
+/inst/doc/
+
+# Output files
+output_projectTPE/
+*.xlsx
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db

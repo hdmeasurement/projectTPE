@@ -1,0 +1,56 @@
+Package: projectTPE
+Title: A Shiny Application for Latent Factor Analysis of Non-Formal Teacher Performance
+Version: 0.1.0
+Authors@R:
+    person("First", "Last",
+           email = "email@institution.ac.id",
+           role  = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Provides an integrated Shiny-based platform for longitudinal
+    latent factor analysis of teacher performance evaluation data in
+    composite-score format. Designed for the Indonesian National Assessment
+    (Asesmen Nasional) Rapor Pendidikan for non-formal equivalency schools
+    (Paket C and PPS Ulya), the application supports exploratory factor
+    analysis (EFA), confirmatory factor analysis (CFA) with robust
+    estimation, longitudinal measurement invariance testing, and latent
+    profile analysis (LPA) — all within a single interactive interface
+    requiring no programming expertise. A built-in simulated dataset
+    replicates the four-wave (2022-2025) Rapor Pendidikan structure.
+License: GPL (>= 3)
+URL: https://github.com/hdmeasure/projectTPE,
+    https://measure.shinyapps.io/projectTPE
+BugReports: https://github.com/hdmeasure/projectTPE/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends:
+    R (>= 4.1.0)
+Imports:
+    shiny (>= 1.8.0),
+    shinydashboard (>= 0.7.2),
+    shinyWidgets (>= 0.8.0),
+    DT (>= 0.33),
+    ggplot2 (>= 3.5.0),
+    dplyr (>= 1.1.0),
+    tidyr (>= 1.3.0),
+    psych (>= 2.4.0),
+    lavaan (>= 0.6-17),
+    tidyLPA (>= 1.1.0),
+    readxl (>= 1.4.0),
+    writexl (>= 1.5.0),
+    reshape2 (>= 1.4.4),
+    plotly (>= 4.10.0),
+    tibble (>= 3.2.0),
+    purrr (>= 1.0.0),
+    MASS
+Suggests:
+    semTools,
+    semPlot,
+    ggcorrplot,
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    remotes,
+    devtools
+VignetteBuilder: knitr
+LazyData: true
