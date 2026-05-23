@@ -41,11 +41,11 @@ run_app()   # launches Shiny dashboard
 
 ## Web App
 
-https://measure.shinyapps.io/projectTPE
+https://hdmeasurement.shinyapps.io/projectTPE
 
 ## Citation
 
-> [Author]. (2025). projectTPE: A Shiny Application for Latent Factor
+> Indriani H Ismail. (2025). projectTPE: A Shiny Application for Latent Factor
 > Analysis of Non-Formal Teacher Performance.
 > Applied Psychological Measurement.
 
